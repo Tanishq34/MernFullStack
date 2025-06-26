@@ -1,0 +1,24 @@
+.navbar{
+    background-color: black;
+    padding: 1rem 2rem;
+}
+.Nav-List{
+     list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+.Nav-List li a{
+     color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    font-size: 22px;
+}
+.Nav-List li a:hover{
+    color: aquamarine;
+}
+.Nav-List li{
+    display: inline;
+}

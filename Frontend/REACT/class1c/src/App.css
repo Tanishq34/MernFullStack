@@ -1,0 +1,11 @@
+.Details{
+    background-color: aqua;
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 15px;
+}
+.Details p{
+    color: blue;
+    font-weight: bold;
+}

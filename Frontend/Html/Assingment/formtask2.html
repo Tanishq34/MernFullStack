@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        background-color: antiquewhite;
+    }
+    
+    input {
+        margin: 5px;
+    }
+</style>
+
+<body>
+    <form>
+        <h1 style="text-align: center;">Student Registration Form</h1>
+        <label for="eroll" style="padding-right: 35px;">Roll NO. :</label>
+        <input type="text" min="" id="eroll" placeholder="enter your roll no.">
+        <div>
+
+            <label for="sname" style="padding-right: 2px;">Student Name :</label>
+            <input type="text" id="sname" placeholder="Enter first name">
+            <input type="text" id="sname" placeholder="Enter last name">
+
+        </div>
+        <div>
+            <label for="fname" style="padding-right: 10px;">Father Name :</label>
+            <input type="text" id="fname" placeholder="Enter FAther name">
+        </div>
+        <div>
+            <label for="dob" style="padding-right: 10px;">Date of birth :</label>
+            <input type="number" id="dob" placeholder="Enter Date">
+            <input type="number" id="dob" placeholder="Enter Month">
+            <input type="number" id="dob" placeholder="Enter year">
+
+        </div>
+        <div>
+            <label for="con" style="padding-right: 2px;">Contact No.:  +91</label>
+            <input type="number" id="con" placeholder="contact no.">
+        </div>
+        <div>
+            <label for="ename" style="padding-right: 28px;">Enter Email :</label>
+            <input type="text" id="ename" placeholder="Enter your email">
+        </div>
+        <div>
+            <label for="epass" style="padding-right: 2px;">Enter Password :</label>
+            <input type="password" id="epass" placeholder="Enter your pass">
+        </div>
+        <div>
+            <label for="egender" style="padding-right: 10px;">Gender :</label>
+            <label for="gender1"> MAle</label>
+            <input type="radio" id="gender1" value="MALE">
+            <label for="gender2">FEmale</label>
+            <input type="radio" id="gender2" value="FEMALE">
+        </div>
+        <div>
+            <label for="dname" style="padding-right: 2px;">Department :</label>
+            <label for="d1">CSE</label>
+            <input type="checkbox" id="d1">
+            <label for="d2">IT</label>
+            <input type="checkbox" id="d2">
+            <label for="d3">ECE</label>
+            <input type="checkbox" id="d3">
+            <label for="d4">civil</label>
+            <input type="checkbox" id="d4">
+        </div>
+        <div>
+            <label for="cname" style="padding-right: 2px;">Course :</label>
+            <select id="camne" placeholder="ggjfkejf">
+                <option value="1" >
+                MBBS
+                </option>
+                <option value="2">btech</option>
+                <option value="3">bsc</option>
+                <option value="4">bcom</option>
+                <option value="5">nursing</option>
+            </select>
+        </div>
+        <div>
+            <label for="sphoto" style="padding-right: 2px;">Student Photo :</label>
+            <input type="file" value="file chosen">
+
+        </div>
+        <div>
+            <label for="cname" style="padding-right: 2px;">City :</label>
+            <input type="text" id="cname">
+        </div>
+        <div>
+            <label for="Add" style="padding-right: 2px;">Address</label>
+            <input type="text" id="Add" placeholder="write address">
+        </div>
+        <button>Register</button>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<STYLE>
+    h1 {
+        text-align: center;
+        border-bottom: 2px solid;
+    }
+    
+    form {
+        background-color: bisque;
+    }
+    
+    form,
+    input,
+    label {
+        margin: 10px;
+    }
+</STYLE>
+
+<body>
+    <form>
+        <h1>STUDENT REGISTRATION FORM</h1>
+        <label for="fname">STUDENT NAME</label>
+        <input type="text" id="fname" minlength="3" pattern="([A-Z][a-z])+([a-z][A-Z])" maxlength="30" title="Atleast 3 alphabate">
+        <caption>{max chracter 30}</caption>
+        <br>
+        <label for="lname">LAST NAME</label>
+        <input type="text" id="fname" minlength="3" pattern="([A-Z][a-z])+ ([A-Z][a-z])" maxlength="30" title="Atleast 3 alphabate">
+        <caption>{max chracter 30}</caption>
+        <br>
+        <label for="dob">DATE OF BIRTH</label>
+        <input type="date" id="dob" placeholder="day">
+        <br>
+        <label for="ename">EMAIL ID</label>
+        <input type="text" id="ename">
+        <div>
+            <label for="no.">CONTACT NUMBER</label>
+            <input type="num" min="10" max="10">
+            <caption>{10 digit number}</caption>
+        </div>
+        <div>
+            <label for="gender">GENDER</label>
+            <label for="gender">Male</label>
+            <input type="radio" id="gender" value="MAle" maxlength="1">
+            <label for="gender">Female</label>
+            <input type="radio" id="gender" value="FEMALE" maxlength="1">
+        </div>
+        <label for="add">ADDRESS</label>
+        <input type="text" id="add">
+        <br>
+        <label for="cname">CITY</label>
+        <input type="text" id="cname" minlength="3" maxlength="30" pattern="([A-Z][a-z])+([a-z][A-Z])" title="Atleast 3 alphabate">
+        <caption>{max chracter 30}</caption>
+        <div>
+            <label for="pcode">Pincode</label>
+            <input type="text" id="pcode" minlength="6" maxlength="6" pattern="[1-9][0-9]" inputmode="numeric" title="6 digit only">
+            <caption>{6 digit only}</caption>
+        </div>
+        <div>
+            <label for="sts">STATE</label>
+            <input type="text" id="sts" maxlength="30" pattern="([a-z][A-Z])">
+        </div>
+        <label for="desh">COUNTRY</label>
+        <input type="text" value="INDIA">
+        <br>
+        <label for="hob">HOBBIES</label>
+        <label for="hob">Dancing</label>
+        <input type="checkbox" id="hob">
+        <label for="hob">Singing</label>
+        <input type="checkbox" id="hob">
+        <label for="hob">Playing</label>
+        <input type="checkbox" id="hob">
+        <label for="hob">REading</label>
+        <input type="checkbox" id="hob">
+        <label for="ot">other</label>
+        <input type="checkbox" id="hub">
+        <input type="text" id="ot">
+        <div>
+            <label>QALIFICATION</label>
+            <table>
+                <tr>
+                    <th>Sr No.</th>
+                    <th>Examination</th>
+                    <th>Class</th>
+                    <th>board</th>
+                    <th>Percentage</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>class X</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>class XII</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Graduation</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Masters</td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </div>
+        <label for="avai">COURSES <br>APPLIED FOR </label>
+        <label for="avai">BCA</label>
+        <input type="radio" id="avai">
+        <label for="avai">B.com</label>
+        <input type="radio" id="avai">
+        <label for="avai">BA</label>
+        <input type="radio" id="avai">
+
+    </form>
+</body>
+
+</html>

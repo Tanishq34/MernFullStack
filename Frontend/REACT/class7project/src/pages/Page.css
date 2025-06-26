@@ -1,0 +1,53 @@
+.userpage {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+  
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(10, 7, 7);
+    font-family: Arial, sans-serif;
+    background: #833AB4;
+background: linear-gradient(90deg,  rgb(252, 234, 69) 0%, rgba(253, 29, 29, 1) 50%, rgb(53, 43, 29) 100%);
+}
+
+.userpage h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #dddbd6;
+}
+
+.userpage p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #352828;
+    font-weight: 500;
+    text-align: start;
+}
+
+.userpage button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    color: rgb(62, 101, 244);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.userpage button:hover {
+    background-color: #0455ab;
+}
+.userpage span{
+    font-weight: 600;
+    
+}
+.body{
+    height: 80vh;
+    background-color: #0678f1;
+    padding-top: 50px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .phone input {
+        width: 1000px;
+    }
+    
+    .Address input {
+        margin: 5px;
+        width: 1000px;
+    }
+    
+    form,
+    input {
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <form>
+        <h1>Bank Account OPening Form</h1>
+        <label for="at">Account Type</label>
+        <label for="ms" style="margin: 100px;">Monthly Salary</label><br>
+        <input type="text" id="at">
+        <input type="text" id="ms">
+        <div> <br>
+            <label for="fname">Name</label>
+            <br>
+            <input type="text" id="fname" placeholder="First">
+
+            <input type="text" id="fname" placeholder="Last">
+        </div>
+        <div class="phone">
+            <label for="ohone">Phone No.</label>
+            <br>
+            <input type="tel" id="ohone" placeholder="** *** ****">
+        </div>
+
+        <div class="Address">
+            <label for="add">Address</label>
+            <br>
+            <input type="text" id="add" placeholder="Street Address">
+            <br> <input type="text" id="add" placeholder="street address line 2">
+
+
+        </div>
+
+
+        <div class="input">
+
+            <input style="margin: left 10px; ;" type="number" id="add" placeholder="postal/zipcode">
+
+            <select style="padding: 10px;" id="add">
+                <option value="rom">Romania</option>
+                <option value="om">Bharat</option>
+                <option value="r">russia</option>
+            </select>
+
+        </div>
+        <p>How did you hear about us ?</p>
+        <input type="radio" id="que" value="sms">
+
+        <label for="que">sms</label>
+        <br>
+        <input type="radio" id="que1" value="Addvertisement">
+        <label for="que">Addvertise</label>s</label>
+    </form>
+</body>
+
+</html>
