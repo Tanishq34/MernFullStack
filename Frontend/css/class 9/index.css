@@ -1,0 +1,19 @@
+.container {
+    width: 300px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 10px;
+    border: 2px solid orange;
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    transform: rotate(10deg);
+}

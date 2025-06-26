@@ -1,0 +1,42 @@
+                    body {
+                        background-color: red;
+                    }
+                    
+                    .container {
+                        position: relative;
+                    }
+                    
+                    .innercontainer {
+                        height: 200px;
+                        width: 200px;
+                        background-color: yellow;
+                        border: 2px solid black;
+                        position: absolute;
+                        /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+                        animation-name: boxkoghumado;
+                        animation-duration: 5s;
+                        border-radius: 50%;
+                        animation-delay: 2s;
+                        animation-timing-function: ease-in;
+                        animation-iteration-count: infinite;
+                    }
+                    
+                    #contant {
+                        padding-top: 30px;
+                        padding-left: 20%;
+                    }
+                    
+                    @keyframes boxkoghumado {
+                        25% {
+                            top: 0px;
+                        }
+                        50% {
+                            top: 100px;
+                        }
+                        75% {
+                            top: 0px;
+                        }
+                        100% {
+                            top: 100px;
+                        }
+                    }

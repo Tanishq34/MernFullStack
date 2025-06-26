@@ -1,0 +1,64 @@
+            .agarbatti {
+                height: 200px;
+                width: 10px;
+                background-color: black;
+                margin: 0 auto;
+                margin-top: 30%;
+            }
+            
+            .aaggi {
+                width: 10px;
+                height: 10px;
+                background-color: red;
+                margin-bottom: 5px;
+            }
+            
+            body {
+                background-color: gray;
+            }
+            
+            .smoke {
+                width: 10px;
+                height: 10px;
+                opacity: 40%;
+                border-radius: 50px;
+                background-color: white;
+                margin: 0 auto;
+                box-shadow: white 0px 0px 20px 20px;
+                position: relative;
+                animation-name: dhuadhua;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+            }
+            
+            .dandi {
+                height: 50px;
+                width: 2px;
+                background-color: rgb(161, 193, 161);
+                margin: 0 auto;
+                margin-top: 190px;
+            }
+            
+            #stand {
+                height: 20px;
+                width: 20px;
+                background-color: yellowgreen;
+                margin-top: 220px;
+                transform: translateX(-5px);
+            }
+            
+            @keyframes dhuadhua {
+                25% {
+                    transform: translateY(-50px);
+                }
+                50% {
+                    transform: translate();
+                }
+                75% {
+                    mtanstransform: translate();
+                }
+                100% {
+                    transform: translate();
+                }
+            }

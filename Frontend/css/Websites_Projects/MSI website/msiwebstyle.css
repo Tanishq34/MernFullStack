@@ -1,0 +1,400 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.page1 {
+    width: 100%;
+    position: relative;
+}
+
+#bgimage {
+    width: 100%;
+}
+
+.navbaritems {
+    width: 100%;
+    position: absolute;
+    bottom: 31em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#overlap1 {
+    width: 80px;
+    height: 50px;
+    margin-top: 16.5em;
+    margin-left: -6.5em;
+}
+
+#overlap2 {
+    width: 70px;
+    height: 70px;
+    margin-top: 20em;
+    margin-left: -4em;
+}
+
+#parapage1 {
+    margin-top: 19em;
+    margin-left: 5em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#ps {
+    font-size: 50px;
+}
+
+.page2 {
+    height: 300px;
+    width: 100%;
+    position: relative;
+    margin-top: -2em;
+}
+
+.pg2heading {
+    position: absolute;
+    bottom: 3em;
+    left: 27em;
+    text-align: center;
+}
+
+#pg2Bgimage {
+    width: 100%;
+}
+
+#head2 {
+    color: orange;
+}
+
+.page3 {
+    margin-top: 1.3em;
+    width: 100%;
+    position: relative;
+}
+
+#pg3bgimage {
+    width: 50%;
+    height: 550px;
+}
+
+#head3 {
+    color: orange;
+    text-align: center;
+}
+
+.pg3contant {
+    width: 60%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    bottom: 1em;
+}
+
+#pg3Hr {
+    width: 600px;
+    /* height: 400px; */
+    float: right;
+}
+
+.woodenImges1 {
+    padding-top: 1em;
+    display: flex;
+    column-gap: 0.8em;
+    flex-wrap: wrap;
+    width: 60%;
+    row-gap: -3em;
+    justify-content: center;
+    align-content: center;
+    float: right;
+}
+
+.Pg3imgsize {
+    /* margin-top: 3.4em; */
+    width: 180px;
+    height: 120px;
+    border: 1px solid orange;
+}
+
+.woodenImges p {
+    color: orange;
+}
+
+.page4 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: 0.2em
+}
+
+#pg4bgimage {
+    width: 59%;
+    height: auto;
+    height: 30.1em;
+    margin-left: 32.2em;
+}
+
+.pg4contant {
+    width: 70%;
+    position: absolute;
+    bottom: 25em;
+    top: -0.2em;
+    text-align: left;
+    padding-left: 7em;
+}
+
+#head4 {
+    color: orange;
+    margin-left: 6em;
+}
+
+.BreifImges {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    width: 50%;
+    gap: 2em;
+}
+
+.Pg4imgsize {
+    border: 1px solid orange;
+    width: 160px;
+    height: 120px;
+}
+
+.BreifImges p {
+    color: orange;
+    text-align: center;
+}
+
+.page5 {
+    position: relative;
+    margin-top: -0.4em;
+}
+
+#pageBg5img {
+    width: 100%;
+}
+
+.page5contant {
+    position: absolute;
+    bottom: 8em;
+    text-align: center;
+    right: 13em;
+}
+
+#heading5 {
+    font-size: 14px;
+    color: rgb(241, 167, 30);
+    margin-left: 44em;
+}
+
+#head5 {
+    margin-left: 44em;
+    font-size: 14px;
+    color: #555;
+}
+
+#para5 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(194, 157, 90);
+    margin-left: 47em;
+    font-size: 13px;
+}
+
+.page6 {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.page6container {
+    position: absolute;
+    font-size: 14px;
+    margin-top: 1em;
+}
+
+#heading6 {
+    font-size: 13px;
+    color: rgb(238, 199, 127);
+    margin-bottom: 20px;
+    margin-left: 16em;
+}
+
+#paras6 {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 30px;
+    margin-left: 10em;
+    text-align: center;
+}
+
+.links {
+    text-align: center;
+    margin-left: 10em;
+    color: rgb(181, 161, 124);
+    text-decoration: underline;
+}
+
+#bookimg {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    margin-left: 8em;
+}
+
+#msibutton {
+    margin-top: 22em;
+    margin-left: 14em;
+    padding: 10px 20px;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 13px;
+    color: #555;
+}
+
+#womenimg {
+    width: 50%;
+    height: 600px;
+    margin-left: 39.5em;
+}
+
+.page7 {
+    position: relative;
+}
+
+#page7img {
+    width: 45%;
+    margin-top: 10em;
+}
+
+.overalltext {
+    position: absolute;
+    margin-left: 55em;
+    bottom: 38em;
+    font-size: 12px;
+}
+
+#head71st {
+    color: rgb(226, 178, 89);
+    font-size: 13px;
+}
+
+#ul1 {
+    list-style: none;
+    color: #555;
+}
+
+#buttonlearn {
+    padding: 8px 20px;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    color: #555;
+}
+
+#page7img2 {
+    width: 40%;
+    margin-top: 10em;
+    margin-left: 45em;
+}
+
+.overalltext2 {
+    position: absolute;
+    margin-left: 9em;
+    bottom: 3em;
+    font-size: 12px;
+}
+
+#head72nd {
+    color: rgb(226, 178, 89);
+}
+
+#ul2 {
+    list-style: none;
+    color: #555;
+}
+
+#buttonlearn2 {
+    padding: 8px 20px;
+    border: 1px solid;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    color: #555;
+}
+
+.page8 {
+    position: relative;
+}
+
+#page8img {
+    width: 100%;
+}
+
+.para8container {
+    position: absolute;
+    margin-left: 38em;
+    bottom: 25em;
+}
+
+#parapage8 {
+    font-size: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#headingpage8 {
+    color: rgb(224, 186, 117);
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.page9 {
+    width: 100%;
+}
+
+#page9img {
+    height: 150px;
+    width: 150px;
+    margin-left: 2.5em;
+}
+
+.page9continer {
+    display: flex;
+    gap: 20px;
+}
+
+.pagepara9 {
+    margin-top: 3.3em;
+    width: 100%;
+}
+
+.page10 {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: 2em; */
+    border-top: 1px solid grey;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+
+.footerigth {
+    padding-left: 35em;
+}
+
+.footerigth span {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.footerleft span {
+    font-size: 12px;
+    margin-bottom: 2em;
+}
